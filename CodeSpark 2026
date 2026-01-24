@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Codespark 2026</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Welcome to codeSpark 2026</h1>
+    <p>A Tech Event for B.Tech 3rd year students</p>
+    <p>Organized by <b>IILM University</b>,<u>Greater Noida</u></p>
+
+
+    <b>Event Highlights</b>
+    <ol type="i">
+
+      <li>Coding Competition</li>  
+      <li>Debugging Challenge</li> 
+      <li>Tech quiz</li>  
+      <li>project Shocase</li>      
+    </ol>
+
+    <b>Participation Benefits</b>
+    <ul>
+
+      <li>certificates for all participants</li>  
+      <li>Exciting Prizes for winners</li> 
+      <li>Networkinh with industry experts</li>       
+    </ul>   
+
+   <table border="1">
+  <tr>
+    <th>Time</th>
+    <th>Activity</th>
+    <th>Venue</th>
+  </tr>
+  <tr>
+    <td>10:00 PM</td>
+    <td>Coding Competition</td>
+    <td>Lab 1</td>
+  </tr>
+  <tr>
+    <td>12:00 PM</td>
+    <td>Debugging Challenge</td>
+    <td>Lab 2</td>
+  </tr>
+  <tr>
+    <td>02:00 PM</td>
+    <td>Tech Quiz</td>
+    <td>Seminar Hall</td>
+  </tr>
+  <tr>
+    <td>04:00 PM</td>
+    <td>Project Showcase</td>
+    <td>Auditorium</td>
+  </tr>
+</table>
+
+<p>Visit our official website:<img src="IILM.logo.jpg" alt="IILM" width="150" height="150"></p>
+
+
+</body>
+</html>
+
+----------------<style>--------------
+
+img {
+    position: relative;
+    top: 60px;
+    right :2px;
+}
