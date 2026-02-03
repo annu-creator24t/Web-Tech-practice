@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>University code catalog</title>
+</head>
+<body>
+    <h1> Employ Catalog</h1>
+   <table border="1" cellspacing="0">
+      <caption><b>Employ and Departement</b></caption>
+     
+      
+      <tr>
+        <th> Department</th>
+        <th> Courses</th>
+      </tr>
+      
+      <tr>
+        <td>Computer Science </td>
+        <td> <ul>
+            <li>Web Development</li>
+            <ul> 
+                <li>Frontend</li>
+                <li>Backend</li>
+            </ul>
+            
+            <li>Data Science</li>
+            <ul> 
+                <li>Python Programming</li>
+                <li>Machine learning</li>
+            </ul>
+           
+        </ul> 
+    </td>
+      </tr>
+      <tr>
+        <td>Business Administration</td>
+        <td> <ul>
+            <li>Marketing</li>
+            <ul> 
+                <li>Digital Marketing</li>
+                <li>Brand Management</li>
+            </ul>
+
+            <li>Finance</li>
+            <ul> 
+                <li>Coorporate Fianace</li>
+                <li>Investment Banking</li>
+            </ul>
+    </td>
+      </tr>
+      <tr>
+        <td>&nbsp;&nbsp;&nbsp;Engineering</td>
+        <td> <table border="1" cellspacing="0">
+     
+      <tr>
+        <th>Branch</th>
+        <th>Subjects</th>
+      </tr>
+      
+      <tr>
+        <td>Mechanical </td>
+        <td> <ul>
+            <li>Thermodynamics</li>
+            <li>Fluid Mechanics</li>
+        </ul> 
+    </td>
+      </tr>
+      <tr>
+        <td>Civil</td>
+        <td> <ul>
+            <li>Structural engineeering</li>
+            <li>Environmental Engineering</li>
+
+        </ul> 
+    </td>
+      </tr>
+      </tr>
+    
+  </body>
+</html>
