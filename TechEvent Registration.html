@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tech Registration Form</title>
+</head>
+<body>
+<h2 align="center">Tech Event Registration</h2>
+
+<form>
+<table align="center">
+
+<tr>
+    <td><label for="name">Full Name</label></td>
+    <td><input type="text" name="name" id="name" placeholder="Enter your name" required/></td>
+</tr>
+
+<tr>
+    <td><label for="email">Email ID</label></td>
+    <td><input type="email" name="email" id="email" placeholder="Enter your email" required/></td>
+</tr>
+
+<tr>
+    <td><label for="mob">Mobile No</label></td>
+    <td><input type="tel" name="mob" id="mob" placeholder="Enter mobile number" required/></td>
+</tr>
+
+<tr>
+    <td><label for="pass">Create Password</label></td>
+    <td><input type="password" name="pass" id="pass" placeholder="Create password" required/></td>
+</tr>
+
+<tr>
+    <td><label>Gender</label></td>
+    <td>
+        <input type="radio" name="gender" value="Male"/> Male
+        <input type="radio" name="gender" value="Female"/> Female
+        <input type="radio" name="gender" value="Other"/> Other
+    </td>       
+</tr>
+
+<tr>
+    <td><label>Interested Domains</label></td>
+    <td>
+    <input type="checkbox" name="domain" value="HealthTech"/> HealthTech<br>
+    <input type="checkbox" name="domain" value="EdTech"/> EdTech<br>6
+    <input type="checkbox" name="domain" value="FinTech"/> FinTech<br>
+    <input type="checkbox" name="domain" value="AgriTech"/> AgriTech
+</td>
+
+</tr>
+
+<tr>
+    <td><label for="level">Experience Level</label></td>
+    <td>
+        <select id="level" name="level">
+            <option>Beginner</option>
+            <option>Intermediate</option>
+            <option>Advanced</option>
+        </select>
+    </td>
+</tr>
+
+<tr>
+    <td><label for="github">GitHub Profile</label></td>
+    <td><input type="url" name="github" id="github" placeholder="GitHub link"/></td>
+</tr>
+<tr>
+    <td><label for="linkedin">Linkedin Profile</label></td>
+    <td><input type="url" name="linkedin" id="linkedin" placeholder="Linkedin link"/></td>
+</tr>
+
+<tr>
+    <td><label for="address">Address</label></td>
+    <td>
+        <textarea name="address" id="address" style="resize:none;" placeholder="Your address"></textarea>
+    </td>
+</tr>
+
+<tr>
+    <td><label for="country">Country</label></td>
+    <td>
+        <select id="country" name="country">
+            <option>India</option>
+            <option>USA</option>
+            <option>UK</option>
+            <option>Germany</option>
+            <option>Singapore</option>
+            <option>Canada</option>
+        </select>
+    </td>
+</tr>
+
+<tr>
+    <td colspan="2" align="center">
+        <input type="submit" value="Register" />
+        <input type="reset" value="Reset" />
+    </td>
+</tr>
+
+</table>
+</form>
+
+</body>
+</html>
